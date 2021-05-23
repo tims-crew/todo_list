@@ -1,0 +1,14 @@
+#LEARNING PLAN 
+
+!!!HELPER
+    Bootstrap
+
+!!!TOO URGENT
+    Освойте Bootstrap 5 и Создайте 6 Проектов (17 страниц)
+
+1. 
+    * Полное руководство по JavaScript 2020 - Строим реальные проекты 
+    * 50 ПРОЕКТОВ ЗА 50 ДНЕЙ - HTML, CSS И JAVASCRIPT
+
+2.
+    * React + Redux - Профессиональная Разработка
