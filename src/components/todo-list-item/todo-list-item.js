@@ -17,7 +17,8 @@ export default class TodoListItem  extends Component {
                 <span 
                     className="todo-list-item-label"
                     style={style}
-                    >{ label }
+                    onClick={ () => console.log(`Done: ${label}`) }>
+                    { label }
                 </span>
         
                 <button type="button"
@@ -31,5 +32,5 @@ export default class TodoListItem  extends Component {
                 </button>
             </span>
         );
-    };
-};
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AppHeader from '../app-header'; x  
+import AppHeader from '../app-header';
 import SearchPanel from '../search-panel';
 import TodoList from '../todo-list';
 import ItemStatusFilter from '../item-status-filter';
@@ -26,6 +26,5 @@ const App = () => {
         <TodoList todos = {todoData} />
       </div>
     );
-  };
-
+}
 export default App;
