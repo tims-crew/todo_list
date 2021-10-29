@@ -5,15 +5,18 @@ import './todo-list-item.css';
 export default class TodoListItem  extends Component {
 
     onLabelClick = () => {
-        this.setState({
-            done: true,
-            important: false
+        this.setState(({ done }) => { 
+            return {
+                done: !done
+            }
         })
     }
 
     onExclamationMark = () => {
-        this.setState({
-            important: true
+        this.setState(({ important }) => { 
+            return {
+                important: !important
+            }
         })
     }
 
