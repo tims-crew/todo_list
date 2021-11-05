@@ -1,4 +1,4 @@
-# #todo_list
+## Task List
 Todo list written using React JS(practice)
 
 ```bash
